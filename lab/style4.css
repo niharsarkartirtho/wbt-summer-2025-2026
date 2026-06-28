@@ -1,0 +1,130 @@
+*{
+    margin:0px;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial,Arial, Helvetica, sans-serif;
+    background:#f2f2f2;
+}
+#head1{
+    text-align: center;
+    color: #0d0d0d;  
+}
+#nav{
+    background-color: rgb(200, 138, 227);
+}
+#nav a{
+    display:inline-block;
+}
+#wellmsg{
+    text-align: center;
+    color: rgb(107, 47, 167);
+}
+.wellcome{
+    /* display:inline-block; */
+    width: 1450px;
+    height: 150px;
+    margin:15px;
+    padding:20px;
+    /* border:2px solid gray; */
+    /* border-radius:10px; */
+    background:white;
+    position:relative;
+}
+.course-card{
+    display:inline-block;
+    width: 1450px;
+    margin:15px;
+    padding:20px;
+    border:2px solid gray;
+    border-radius:10px;
+    background:white;
+    position:relative;
+}
+.course{
+    display:inline-block;
+    width:250px;
+    margin:15px;
+    padding:20px;
+    border:2px solid gray;
+    border-radius:10px;
+    background:white;
+    position:relative;
+}
+#badge{
+    position:absolute;
+    top:-10px;
+    right:-10px;
+    background:red;
+    color:white;
+    padding:5px 10px;
+    border-radius:5px;
+}
+#contactBtn{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:green;
+    color:white;
+    text-decoration:none;
+    padding:12px 18px;
+    border-radius:5px;
+}
+#applybtn{
+    position:absolute;
+    bottom:20px;
+    right:20px;
+    background:green;
+    color:white;
+    border:none;
+    cursor:pointer;
+    padding:12px 18px;
+    border-radius:5px;
+}
+.notice{
+    display:inline-block;
+    width: 1450px;
+    margin:15px;
+    padding:20px;
+    border:2px solid gray;
+    border-radius:10px;
+    background:white;
+    position:relative;
+}
+.campus{
+    display:inline-block;
+    width: 1450px;
+    margin:15px;
+    padding:20px;
+    border:2px solid gray;
+    border-radius:10px;
+    background:white;
+    position:relative;
+}
+#image-box{
+    width:400px;
+    height:180px;
+    background:lightgray;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#infobox{
+    position:absolute;
+    top:120px;
+    left:250px;
+    background:#003366;
+    color:white;
+    padding:15px;
+    z-index:2;
+}
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
