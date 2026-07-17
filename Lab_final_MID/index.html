@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Club Membership Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h2>University Club Membership Registration</h2>
+
+    <form action="#" method="post" id="myForm">
+
+        <label for="firstName">First Name :</label>
+        <input type="text" id="firstName" placeholder="Your first name">
+        <small id="firstNameError" class="error"></small>
+
+        <label for="lastName">Last Name :</label>
+        <input type="text" id="lastName" placeholder="Your last name">
+        <small id="lastNameError" class="error"></small>
+
+        <label for="email">Email Address :</label>
+        <input type="email" id="email" placeholder="your@email.com">
+        <small id="emailError" class="error"></small>
+
+        <label for="password">Password :</label>
+        <input type="password" id="password">
+        <small id="passwordError" class="error"></small>
+
+        <label>Gender</label>
+        <div class="radio-group">
+            <input type="radio" name="gender" id="male" value="Male">
+            <label for="male">Male</label>
+
+            <input type="radio" name="gender" id="female" value="Female">
+            <label for="female">Female</label>
+        </div>
+        <small id="genderError" class="error"></small>
+
+
+        <label>Interested Clubs</label>
+        <div class="checkbox-group">
+            <input type="checkbox" name="club" id="ACC" value="AIUB Computer Club">
+            <label for="ACC">AIUB Computer Club</label>
+
+            <input type="checkbox" name="club" id="somoy" value="Shomoy Club">
+            <label for="somoy">Shomoy Club</label>
+
+            <input type="checkbox" name="club" id="drama" value="Drama Club">
+            <label for="drama">Drama Club</label>
+        </div>
+        <small id="clubError" class="error"></small>
+
+        <label for="category">Club Category</label>
+        <select id="category">
+            <option value="">Select Category</option>
+            <option>Photographer</option>
+            <option>Organaizer</option>
+            <option>Cultural</option>
+            <option>Media & Communication</option>
+            <option>Designer</option>
+        </select>
+        <small id="categoryError" class="error"></small>
+
+        <label for="reason">Why do you want to join?</label>
+        <textarea id="reason" rows="5" placeholder="type your thoughts"></textarea>
+        <small id="reasonError" class="error"></small>
+        <button type="submit">Register</button>
+
+    </form>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
